@@ -1,0 +1,100 @@
+
+[X] spawn / mort / revenir sur le menu des customs maps
+
+
+[x] Camera
+
+
+
+
+
+
+
+
+[PLUS TARD] (pour si un jour tu veux retravailler un peu dessus !)
+    - [x] systeme de flag respawn (faire une table de respawns + un index de flag)
+    - [x] Revoir puissance vitesse, ...
+    - [BONUS que je ferai pas] BUG SCORING + Combos (Ennemy)
+    - [x] ajouter sur les koopa un event de mort pour éviter bug graphique avec la tate qui est tj affiché alors que koopa = inshell
+
+
+
+
+
+
+
+
+
+[v] Ajouter rebos sur ennemi
+[v] mort bugué
+[v] time qui se reset en changement de page
+[v] Camera type
+[v] Revoir les depths object par object
+[v] pause quand joueur meurt pour montrer ou il s'est fait tapé²
+[v] Boule de feu
+[v] TP avec tuyau (MOVE OR SPAWN)
+[v] étoile tue ennemie
+[v] types de dégats
+[v] gAME OVER
+[v] BUG AVEC LE KOOPA QUAND PASSE EN CARAPACE ??
+
+
+NEW BUG RESOLVED
+    [v] polish le flag (utiliser l'auto walk)
+    [v] Bug animation flag
+    [v] polish le pipe travel
+    [v] Revoir le Player
+    BUG AVEC LE JUMP QUI GLISSE 
+    GROS FUITE DE MEMOIRE AVEC collision
+    bug reverse
+    bug avec boule de feu qui touche ennemi
+    JE SAUTE PAS ASSEZ HAUT WTF
+    [v] Bug collision quand joueur grandit
+    [bug de coll] 1
+    [accroupi] 2
+    [plante] 3
+    [platforme] 4
+    systeme de creation de map simplifié (avec calques et en mettant directement fichier tiled dans un dossier + menu des maps existantes)
+    personnage qui bouge dans le tuyau horiz (enter)
+    [x] todo mapreader
+    petit bug quand mario sort du tuyau connard soit plus précis
+
+    [x] 100 pîeces donnent un Up
+    on peut sauter en crouch
+    [x] sCORE
+    [x] bowser sound ok 
+    [x] Custom
+    [x] reset dans custom map ] choix des vies pour un niveua custom
+    [x] END SCREEN 
+
+
+
+
+DEPTH
+    Ennemy = 3
+    Up = 1/3
+    Box = 3
+    Coin Box = 4
+    Brick = 3
+    brick frag = 4
+    Coin = 2
+    Door = 0
+    Fire plant = 2/3
+    firework = 2
+    flag = 2
+    invisible box = 3
+    mushroom = 2/3
+    pipe enter = 2
+    star = 2/3
+    decor = 1
+    object decor = 3
+    player = 3
+
+
+    0 : Hidden
+    1 : DECOR
+    2 : Spawn Item
+    3 : Object deco
+    4 : item
+    5 : player
+    6 : item qui passe devant
